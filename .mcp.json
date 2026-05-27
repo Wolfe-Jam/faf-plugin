@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "faf": {
+    "core": {
       "command": "npx",
       "args": ["-y", "claude-faf-mcp"]
     }

@@ -1,7 +1,7 @@
 {
   "name": "faf",
   "description": "Persistent project context for Claude Code. .faf is an IANA-registered structured file (application/vnd.faf+yaml) that generates and syncs your CLAUDE.md — project DNA that survives across sessions. Wraps the claude-faf-mcp server.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "James Wolfe",
     "email": "team@faf.one",
