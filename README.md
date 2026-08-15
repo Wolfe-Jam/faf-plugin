@@ -23,3 +23,9 @@ Complementary to Claude Code's context system — `.faf` is the structured sourc
 - Home: https://faf.one
 - MCP server: https://www.npmjs.com/package/claude-faf-mcp
 - Format: IANA `application/vnd.faf+yaml`
+
+## Citation
+
+> Wolfe, J. (2025). *Format-Driven AI Context Architecture: The .faf Standard for Persistent Project Understanding*. Zenodo. https://doi.org/10.5281/zenodo.18251362
+
+> Wolfe, J. (2026). *Why Agents Need a Passport: .fafa — Portable Identity for the Agentic Era*. Zenodo. https://doi.org/10.5281/zenodo.21951641
