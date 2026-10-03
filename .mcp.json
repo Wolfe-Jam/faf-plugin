@@ -2,7 +2,10 @@
   "mcpServers": {
     "core": {
       "command": "npx",
-      "args": ["-y", "claude-faf-mcp"]
+      "args": [
+        "-y",
+        "claude-faf-mcp@7.0.1"
+      ]
     }
   }
 }

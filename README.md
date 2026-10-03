@@ -2,13 +2,20 @@
 
 `.faf` is an IANA-registered structured file (`application/vnd.faf+yaml`) that captures your project's DNA and generates/syncs your `CLAUDE.md` — so Claude starts every session already knowing the project.
 
-This plugin bundles the [`claude-faf-mcp`](https://www.npmjs.com/package/claude-faf-mcp) server (also in the official MCP Registry).
+This plugin bundles the [`claude-faf-mcp`](https://www.npmjs.com/package/claude-faf-mcp) server (also listed in the MCP Registry).
 
 ## Install
 
+Not in Anthropic's directory yet (review pending). Until then, install from the FAF marketplace:
+
 ```
-/plugin install faf@claude-community
+/plugin marketplace add Wolfe-Jam/faf-plugins
+/plugin install faf@faf-plugins
 ```
+
+## What it runs
+
+The plugin starts one local MCP server, `claude-faf-mcp@7.0.1`, through `npx` (downloaded from npm on first run). It reads and writes `.faf`, `CLAUDE.md` and related files in your project. It contacts GitHub only when you ask it to read a GitHub repo, and collects no data. Support: team@faf.one.
 
 ## What you get
 
