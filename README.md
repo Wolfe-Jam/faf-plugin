@@ -1,5 +1,14 @@
 # FAF — Persistent Project Context for Claude Code
 
+> **Retired (2026-10-03).** FAF is one plugin now: **[FAF Skills](https://github.com/Wolfe-Jam/faf-skills)**. This plugin's MCP toolbox (`claude-faf-mcp`) joins it in FAF Skills v2.
+>
+> ```
+> /plugin marketplace add Wolfe-Jam/faf-skills
+> /plugin install faf@faf-skills
+> ```
+>
+> Until v2 ships, add the MCP server on its own: `claude mcp add faf -- npx -y claude-faf-mcp@7.0.1`. This repo is archived (read-only).
+
 `.faf` is an IANA-registered structured file (`application/vnd.faf+yaml`) that captures your project's DNA and generates/syncs your `CLAUDE.md` — so Claude starts every session already knowing the project.
 
 This plugin bundles the [`claude-faf-mcp`](https://www.npmjs.com/package/claude-faf-mcp) server (also listed in the MCP Registry).
